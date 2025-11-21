@@ -1,4 +1,4 @@
-package problems.oops;
+package problems.oops.encapsulation_inheritance;
 
 import java.time.LocalDate;
 

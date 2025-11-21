@@ -1,4 +1,4 @@
-package problems.oops;
+package problems.oops.encapsulation_inheritance;
 // Declares the package where this class is stored.
 
 import java.time.LocalDate;

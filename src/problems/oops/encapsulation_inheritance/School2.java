@@ -1,4 +1,4 @@
-package problems.oops;
+package problems.oops.encapsulation_inheritance;
 
 public class School2 {
     public static void main(String[] args) {

@@ -1,4 +1,4 @@
-package problems.oops;
+package problems.oops.encapsulation_inheritance;
 // Defines the package this class belongs to
 
 import java.time.LocalDate;          // Import LocalDate class for date handling
@@ -16,8 +16,6 @@ public class School { // Start of School class
                 new Person("Sneha", "ECE", 23,"15357767",
                         LocalDate.of(2003,3,15)); // LocalDate.of creates a date object
 
-        Person person = new Student("160", "Dinesh", "EEE", 20, "9845484475",
-                LocalDate.of(1994, 5, 10));
         // Creating first Student object
         Student student1 =
                 new Student("160", "Vaishnavi", "CSE", 20, "9845484475",

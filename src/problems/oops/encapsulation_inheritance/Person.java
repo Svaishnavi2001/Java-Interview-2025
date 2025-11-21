@@ -1,4 +1,4 @@
-package problems.oops;                     // 1. Declares the package (organization / namespace).
+package problems.oops.encapsulation_inheritance;                     // 1. Declares the package (organization / namespace).
 
 import java.time.LocalDate;               // 2. Import LocalDate so we can store dates (DOB).
 

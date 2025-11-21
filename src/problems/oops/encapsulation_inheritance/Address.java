@@ -1,4 +1,4 @@
-package problems.oops;
+package problems.oops.encapsulation_inheritance;
 
 public class Address {
     private String street;
