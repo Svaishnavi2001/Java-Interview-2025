@@ -9,7 +9,7 @@ public class Person {
     private String name;                   // 5. Person's name
     private String dept;                   // 6. Department / group the person belongs to
     private int age;                       // 7. Age in years
-    String phoneNumber;            // 8. Contact number
+    String phoneNumber;                    // 8. Contact number
     private LocalDate dateOfBirth;         // 9. Date of birth
 
     // 10. Parameterized constructor — initialize a Person with full details.
