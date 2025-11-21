@@ -1,4 +1,4 @@
-package problems.oops.encapsulation_inheritance;
+package java.concepts.oops.encapsulation_inheritance_composition;
 
 import java.time.LocalDate;
 
@@ -34,7 +34,7 @@ public class Teacher extends Person {
     // Getters and Setters
 
     public String getEmployeeId() {
-        employeeId = "EMP" + "RNS" + getDept() + getEmployeeId();
+        employeeId = "EMP" + getEmployeeId();
         return employeeId;
     }
 

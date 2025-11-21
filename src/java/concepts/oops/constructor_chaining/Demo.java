@@ -1,4 +1,4 @@
-package problems.oops.constructor_chaining;
+package java.concepts.oops.constructor_chaining;
 
 public class Demo{
     public static void main(String[] args) {
