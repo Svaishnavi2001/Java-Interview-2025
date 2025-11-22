@@ -1,4 +1,4 @@
-package java.concepts.oops.encapsulation_inheritance_composition;
+package com.concepts.oops.encapsulation_inheritance_composition;
 // Defines the package this class belongs to
 
 import java.time.LocalDate;          // Import LocalDate class for date handling
@@ -29,9 +29,12 @@ public class School { // Start of School class
                         LocalDate.of(2002, 5, 10));
 
         // Printing objects – automatically calls toString() method
+
+
+        System.out.println(person1);   // Prints details of person1
         System.out.println(student1);  // Prints details of student1
         System.out.println(student2);  // Prints details of student2
-        System.out.println(person1);   // Prints details of person1
+
 
         // Creating a List to store Student objects
         List<Student> studentList = new ArrayList<>();

@@ -1,4 +1,4 @@
-package java.concepts.oops.constructor_chaining;
+package com.concepts.oops.constructor_chaining;
 
 public class Car {
     String brand;

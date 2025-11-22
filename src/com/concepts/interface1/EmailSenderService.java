@@ -1,4 +1,4 @@
-package java.concepts.interface1;
+package com.concepts.interface1;
 
 public class EmailSenderService implements NotifyService {
 

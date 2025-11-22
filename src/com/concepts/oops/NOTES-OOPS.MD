@@ -4,7 +4,7 @@ A clear and beginner-friendly guide covering the fundamental concepts of OOPS us
 
 ---
 
-## 📌 1. **Class**
+##  1. **Class**
 
 A class is a blueprint/template for creating objects. It defines properties (variables) and behaviors (methods).
 
@@ -19,7 +19,7 @@ class Student {
 
 ---
 
-## 📌 2. **Object**
+## 2. **Object**
 
 An object is an instance of a class. It represents a real-world entity.
 
@@ -31,7 +31,7 @@ Student s1 = new Student();
 
 ---
 
-## 📌 3. **Encapsulation**
+##  3. **Encapsulation**
 
 Encapsulation is wrapping data (variables) and methods into a single unit (class) and protecting the data using **private** access.
 
@@ -47,7 +47,7 @@ public void setName(String name) { this.name = name; }
 
 ---
 
-## 📌 4. **Inheritance** (IS-A Relationship)
+##  4. **Inheritance** (IS-A Relationship)
 
 Allows one class to inherit the properties and behavior of another class.
 
@@ -64,7 +64,7 @@ Student **IS A** Person.
 
 ---
 
-## 📌 5. **Polymorphism**
+## 5. **Polymorphism**
 
 Polymorphism means "many forms". A single method behaves differently based on the object.
 
@@ -87,7 +87,7 @@ public String toString() { return "Custom Output"; }
 
 ---
 
-## 📌 6. **Abstraction**
+##  6. **Abstraction**
 
 Hiding internal implementation and showing only essential details.
 
@@ -106,7 +106,7 @@ abstract class Animal {
 
 ---
 
-## 📌 7. **Composition** (HAS-A Relationship)
+##  7. **Composition** (HAS-A Relationship)
 
 One class contains another class as a field.
 
@@ -122,7 +122,7 @@ More flexible than inheritance.
 
 ---
 
-## 📌 8. **Association**
+##  8. **Association**
 
 Relationship where two classes are connected but independent.
 
@@ -130,7 +130,7 @@ Example: Teacher ↔ Student
 
 ---
 
-## 📌 9. **Aggregation** (Weak HAS-A)
+##  9. **Aggregation** (Weak HAS-A)
 
 Special form of association where child can exist without parent.
 
@@ -140,7 +140,7 @@ Example:
 
 ---
 
-## 📌 10. **Composition vs Aggregation**
+##  10. **Composition vs Aggregation**
 
 | Feature    | Composition             | Aggregation                  |
 | ---------- | ----------------------- | ---------------------------- |
@@ -150,7 +150,7 @@ Example:
 
 ---
 
-## 📌 11. **Constructor**
+##  11. **Constructor**
 
 A special method used to initialize objects.
 
@@ -162,19 +162,19 @@ Types:
 
 ---
 
-## 📌 12. **Method Overloading**
+## 12. **Method Overloading**
 
 Same method name, different parameters.
 
 ---
 
-## 📌 13. **Method Overriding**
+##  13. **Method Overriding**
 
 Same method name & parameters in child class, overriding parent behavior.
 
 ---
 
-## 📌 14. **Access Modifiers**
+##  14. **Access Modifiers**
 
 | Modifier  | Access Level              |
 | --------- | ------------------------- |
@@ -185,7 +185,7 @@ Same method name & parameters in child class, overriding parent behavior.
 
 ---
 
-## 📌 15. **Super Keyword**
+##  15. **Super Keyword**
 
 Used to:
 
@@ -194,13 +194,13 @@ Used to:
 
 ---
 
-## 📌 16. **this Keyword**
+##  16. **this Keyword**
 
 Refers to the current object. Used to differentiate between instance variable and parameter.
 
 ---
 
-## 📌 17. **Final Keyword**
+##  17. **Final Keyword**
 
 Used to declare:
 
@@ -210,8 +210,19 @@ Used to declare:
 
 ---
 
-## 🎉 Summary
+⭐ Summary Table
 
-OOPS helps in writing clean, structured, and reusable code. The key idea is to model real-world problems using objects and relationships.
+| Concept       | Definition                                       |
+| ------------- | ------------------------------------------------ |
+| Class         | Blueprint for objects                            |
+| Object        | Instance of class                                |
+| Encapsulation | Binding data + methods, protecting data          |
+| Inheritance   | One class acquires another’s properties          |
+| Polymorphism  | Same method, different behavior                  |
+| Abstraction   | Hiding internal details, showing only essentials |
+| Association   | Relationship between two classes                 |
+| Aggregation   | Weak HAS-A relationship                          |
+| Composition   | Strong HAS-A relationship                        |
 
-If you want, I can also add diagrams or create a PDF version of this README.
+
+

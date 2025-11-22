@@ -1,4 +1,4 @@
-package java.concepts.interface1;
+package com.concepts.interface1;
 
 public interface NotifyService {
     default String pleaseNotifyUser(){

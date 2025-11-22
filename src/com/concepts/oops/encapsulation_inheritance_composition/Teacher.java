@@ -1,4 +1,4 @@
-package java.concepts.oops.encapsulation_inheritance_composition;
+package com.concepts.oops.encapsulation_inheritance_composition;
 
 import java.time.LocalDate;
 
@@ -11,6 +11,7 @@ public class Teacher extends Person {
     private Address address;
 
     public Teacher(String name, String dept, int age, String phoneNumber, LocalDate dateOfBirth, String employeeId, double salary, Address address) {
+
         super(name, dept, age, phoneNumber, dateOfBirth);
         this.employeeId = employeeId;
         this.salary = salary;

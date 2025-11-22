@@ -1,4 +1,4 @@
-package java.concepts.oops.encapsulation_inheritance_composition;
+package com.concepts.oops.encapsulation_inheritance_composition;
 // Declares the package where this class is stored.
 
 import java.time.LocalDate;

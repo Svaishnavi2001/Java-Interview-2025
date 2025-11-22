@@ -1,4 +1,4 @@
-package java.concepts.oops.encapsulation_inheritance_composition;                     // 1. Declares the package (organization / namespace).
+package com.concepts.oops.encapsulation_inheritance_composition;                     // 1. Declares the package (organization / namespace).
 
 import java.time.LocalDate;               // 2. Import LocalDate so we can store dates (DOB).
 

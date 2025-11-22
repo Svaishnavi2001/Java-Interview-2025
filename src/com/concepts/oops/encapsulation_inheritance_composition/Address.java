@@ -1,4 +1,4 @@
-package java.concepts.oops.encapsulation_inheritance_composition;
+package com.concepts.oops.encapsulation_inheritance_composition;
 
 public class Address {
     private String street;
