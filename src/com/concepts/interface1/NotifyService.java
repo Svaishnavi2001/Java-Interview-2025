@@ -1,6 +1,7 @@
 package com.concepts.interface1;
 
 public interface NotifyService {
+
     default String pleaseNotifyUser(){
         return "Always Notify user";
     }
