@@ -1,6 +1,6 @@
 package com.concepts.exception_handling;
 
-public class ATM {
+public class MoneyWithdrawal {
     public static void main(String[] args) {
 
         int balance=5000;
@@ -12,6 +12,7 @@ public class ATM {
             }
             balance=balance-withdrawAmount;
             System.out.println("Withdraw Successfull! Remaining balance: "+ balance);
+
         }
         catch(ArithmeticException e){
             System.out.println("Transaction Failed" + e.getMessage());
