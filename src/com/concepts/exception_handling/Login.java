@@ -3,7 +3,7 @@ package com.concepts.exception_handling;
 public class Login {
 
     static void creds(String userName, String password) throws Exception{
-        if (!userName.equals("Sneha") || !password.equals("1234")) {
+        if (!userName.equals("admin") || !password.equals("1234")) {
             throw new Exception("Invalid Username or Password");
 
         }
