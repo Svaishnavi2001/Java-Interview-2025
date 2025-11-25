@@ -6,8 +6,9 @@ package com.concepts.oops.polymorphism;
         System.out.println("Delivering food to the customer.");
     }
 
-    private String deliverFoodItem(String foodItem) {
-        return "Delivering " + foodItem + " to the customer.";
+    // private mwthod
+    private void deliverFoodItem() {
+        System.out.println("Delivering foodItem to the customer.");
     }
 
     public String  deliverFoodItemWithAddress(String foodItem, String address) {
@@ -26,21 +27,22 @@ class Swiggy extends FoodDelivery {
             System.out.println("Swiggy is delivering food to the customer.");
         }
 
-        //Visibility
-        public String deliverFoodItem(String foodItem) {
-            return "Swiggy is delivering " + foodItem + " to the customer.";
+        // visibility
+        public void deliverFoodItem() {
+            System.out.println("Swiggy is delivering Pizza to the customer.");
         }
 
  }
 
  class Zomato extends FoodDelivery {
 
+        @Override
         public void deliver() {
             System.out.println("Zomato is delivering food to the customer");
         }
 
-        public String  deliverFoodItem(String foodItem) {
-            return "Zomato is delivering " + foodItem + " to the customer";
+        public void  deliverFoodItem() {
+            System.out.println("Zomato is delivering burger to the customer");
         }
 
      }
@@ -51,11 +53,11 @@ class Swiggy extends FoodDelivery {
 
             Swiggy swiggy=new Swiggy();
             swiggy.deliver();
-            System.out.println(swiggy.deliverFoodItem("Pizza"));
+            swiggy.deliverFoodItem();
 
             Zomato zomato=new Zomato();
             zomato.deliver();
-            System.out.println(zomato.deliverFoodItem("Burger"));
+            zomato.deliverFoodItem();
         }
     }
 
