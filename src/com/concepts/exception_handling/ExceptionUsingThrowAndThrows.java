@@ -1,6 +1,6 @@
 package com.concepts.exception_handling;
 
-public class ExceptionExample {
+public class ExceptionUsingThrowAndThrows {
 
     static void validateAge( int age) throws Exception{
         if(age<18){
@@ -24,8 +24,8 @@ public class ExceptionExample {
         catch (Exception e){
             System.out.println("Error: "+ e.getMessage());
         }
-        finally {
+
             System.out.println("Program continues after exception handling...");
-        }
+
     }
 }
